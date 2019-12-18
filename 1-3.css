@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+    background-color: lightcoral;
+}
+.navbar {
+    margin-bottom: 50px;
+    background-color: lightpink;
+}
+.flex {
+    display: flex;
+    margin: 50px 200px;
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    padding: 20px 10px;
+    background-color: white;
+    text-align: center;
+    margin: 0 80px;
+}
+
+.title {
+    text-align: center;
+}
+
+.output {
+    text-align: center;
+    border: 1px dotted black;
+    width: 281px;
+    height: 145px;
+    margin: 30px 52px;
+    padding: 16px 45px;
+}
+.output p {
+    text-align: center;
+    
+}
+
